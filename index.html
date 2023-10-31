@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ APP - AYUSH MISHRA</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>  
+    <main>
+        <h3 class="heading">Simple Quiz-  Ayush Mishra</h3>
+    <div class="paper">
+        <div class="question">
+            <p id="qno"></p>        <p id="que"></p>
+        </div>
+        <div class="option">
+         <p class="opt"  id="op1"></p>
+         <p class="opt"  id="op2"></p>
+         <p class="opt"  id="op3"></p>
+         <p class="opt"   id="op4"></p>
+        </div>  
+    </div>
+    <button id="next">Next</button>
+    </main>
+</body>
+<script src="./script.js"></script>
+<!-- <script>
+    const ques=[
+        {
+        que:"what is java",
+        a:"java",
+        b:"cpp"
+        },
+        {
+            que:"ayush is goog",
+            a:"yes",
+            b:"no"
+        }
+
+    ]
+    const q=document.querySelector('#que')
+    const op1=document.querySelector('#op1')
+    const op2=document.querySelector('#op2')
+    const next=document.querySelector('#next')
+    let i=-1
+    document.querySelector('#next').addEventListener("click",function(){
+        i++
+        q.innerHTML=ques[i].que
+        op1.innerHTML=ques[i].a
+        op2.innerHTML=ques[i].b
+    })
+</script> -->
+</html>
