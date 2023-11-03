@@ -11,14 +11,58 @@ body{
     align-items: center;
     justify-content: center;
     background-color:cadetblue;
+    background-image: url(./image/img.jpeg);
+    background-position: center;
+    background-size: cover;
 }
-main{
+.instruction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.5rem 2rem;
+}
+.fa-instagram{
+    color: red;
+    font-size: 2rem;
+}
+.fa-linkedin{
+    font-size: 2rem;
+}
+.fa-facebook{
+    font-size: 2rem;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.identify{
+    color: red;
+}
+#start{
+    background-color: red;
+    padding: 0.2rem 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    color: white;
+}
+/* .quiz{
+    display: none;
+} */
+.quiz{
     padding: 1rem 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: white;
     border-radius: 1rem;
+    gap: 1rem;
+    display: none;
 }
 .paper{
     /* width: 40rem;
@@ -72,6 +116,34 @@ main{
     border: none;
     border-radius: 0.2rem;
 }
+#prev{
+    padding: 0.3rem 3rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;  
+}
 #opa{
     background-color:red;
+}
+#score{
+    color: red;
+}
+#submit{
+    padding: 0.3rem 3rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+}
+@media screen and (max-width: 425px){
+       .quiz{
+        border: 2px solid red;
+       }
+       .instruction{
+        align-items: center;
+        justify-content: center;
+        width: 20rem;
+        text-align: center;
+       }
 }

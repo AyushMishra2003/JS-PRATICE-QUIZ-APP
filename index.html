@@ -5,22 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QUIZ APP - AYUSH MISHRA</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>  
     <main>
-        <h3 class="heading">Simple Quiz-  Ayush Mishra</h3>
-    <div class="paper">
-        <div class="question">
-            <p id="qno"></p>        <p id="que"></p>
+        <div class="instruction">
+            <h3 class="heading">Welcome to IQ QUIZ</h3>
+            <h3>READ INSTRUCTION:-</h3>
+            <h3>+5 MARKS FOR CORRECT ANSWER</h3>
+            <h3>NO MINUS POINTS</h3>
+            <h3>There will be 10 question given</h3>
+            <h3>CLICK submit for submission</h3>
+            <h3 class="identify">Created by -Ayush Mishra</h3>
+            <div class="social">
+                 <a href="https://www.instagram.com/ayushm185/"><i class="fa-brands fa-instagram"></i></a>
+                 <a href="https://www.linkedin.com/in/ayush-mishra-4713ab269/"><i class="fa-brands fa-linkedin"></i></a>
+                 <a href="https://www.facebook.com/profile.php?id=100014688496002"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+           <button id="start">START</button>
         </div>
-        <div class="option">
-         <p class="opt"  id="op1"></p>
-         <p class="opt"  id="op2"></p>
-         <p class="opt"  id="op3"></p>
-         <p class="opt"   id="op4"></p>
-        </div>  
-    </div>
-    <button id="next">Next</button>
+        <div class="quiz">
+         
+            <div class="paper">
+                <div class="question">
+                    <p id="qno"></p>        <p id="que"></p>
+                </div>
+                <div class="option">
+                 <p class="opt"  id="op1"></p>
+                 <p class="opt"  id="op2"></p>
+                 <p class="opt"  id="op3"></p>
+                 <p class="opt"  id="op4"></p>
+                </div>  
+            </div>
+            <div class="btn">  
+                  <button id="prev">Prev</button>
+              <button id="next">Next</button>
+            </div>
+            <button id="submit">SUBMIT</button>
+             <p id="score"></p>
+        </div>
     </main>
 </body>
 <script src="./script.js"></script>
